@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(16, 1, 31);
+    height: 100vh;
+    font-size: 16px;
+    color: white;
+    font-family: "Roboto", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+   
+}
+
+p{
+    text-align: center;
+    font-size: 1.6rem;
+}
+table{
+
+    width: 60vw;
+    height: 60vh;
+    margin: auto
+}
+
+td{
+    background-color: rgb(237, 210, 255);
+    text-align: center;
+    border: 15px solid rgb(16, 1, 31);
+    border-radius: 25px;
+    width: 33%;
+    height: 33%;
+    color: black;
+    font-size: 2rem;
+}
