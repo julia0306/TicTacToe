@@ -3,33 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic, Tac, Toe</title>
     <link rel="stylesheet" href="./index.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="body">
     <h1>Tic, Tac, Toe</h1>
-    <table>
-        <tr>
-            <td class="space" data-index="0"> </td>
-            <td class="space" data-index="1"> </td>
-            <td class="space" data-index="2"> </td>
-        </tr>
-        <tr>
-            <td class="space" data-index="3"> </td>
-            <td class="space" data-index="4"> </td>
-            <td class="space" data-index="5"> </td>
-        </tr>
-        <tr>
-            <td class="space" data-index="6"> </td>
-            <td class="space" data-index="7"> </td>
-            <td class="space" data-index="8"> </td>
-        </tr>
-    </table>
+    <div class = "main-container">
+        <table>
+            <tr>
+                <td class="space" data-index="0"> </td>
+                <td class="space" data-index="1"> </td>
+                <td class="space" data-index="2"> </td>
+            </tr>
+            <tr>
+                <td class="space" data-index="3"> </td>
+                <td class="space" data-index="4"> </td>
+                <td class="space" data-index="5"> </td>
+            </tr>
+            <tr>
+                <td class="space" data-index="6"> </td>
+                <td class="space" data-index="7"> </td>
+                <td class="space" data-index="8"> </td>
+            </tr>
+        </table>
+    </div>
     <div class="info">
-        <p ></p>
+        <p class ="winner-info"> </p>
+        <a href="http://127.0.0.1:5500/TicTacToe/TicTacToe/index.html"><input type="submit" value="Cliquer ici pour rejouer"></href>
     </div>
     <script type="text/Javascript" src="./app.js"></script>
 </body>
